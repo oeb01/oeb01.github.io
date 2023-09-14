@@ -1,0 +1,104 @@
+body {
+    font-family: 'Sono', sans-serif;
+    margin: 0;
+    background-color: #F0EBCE;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    padding: 15px;
+    list-style: none;
+    margin-top: 0;
+    background-color: #014421;
+}
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 40px;
+    color: #F0EBCE;
+  }
+
+nav a:hover, .active {
+    color: #AA8B56;
+}
+
+main {
+    margin: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: #4C1109;
+}
+
+img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+section {
+    display: inline;
+}
+
+#intro > img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+#intro > p {
+    /* float: right; */
+    line-height: 1.5
+}
+
+tr > td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+    vertical-align: text-bottom;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #AA8B56;
+    color: #000;
+    clear: left;
+}
+
+
+img.crochet {
+    height: 245px;
+}
+
+img.dance {
+    height: 170px;
+}
+
+a.dance {
+    text-decoration: none;
+    color: black;
+}
+
+a.dance:hover {
+    text-decoration: underline;
+}
+
+span {
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
